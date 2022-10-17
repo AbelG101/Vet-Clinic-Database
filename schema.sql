@@ -1,5 +1,5 @@
 create table animals (
-    id integer,
+    id integer GENERATED ALWAYS AS IDENTITY,
     name varchar(100),
     date_of_birth date,
     escape_attempts int,
