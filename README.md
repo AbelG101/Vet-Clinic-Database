@@ -1,48 +1,100 @@
-# curriculum-databases-projects-template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+  
+
+# Vet Clinic Database
+
+  
+
+> Vet Clinic Database is a relational database project that stores data about animals, their owners, clinic employees and visits .
+  
+
+## Live Demo
+
+> Comming soon⏳
+
+  
+
+## Built With
 
 
+- PostgreSQL
+
+  
+
+### Technologies used
+
+- Git, Github.
+- pgAdmin 4
+
+  
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+To get a local copy up and running follow these simple example steps.
 
 
-## Authors
+### Prerequisites
 
-👤 **Author1**
+- use git clone in order to get the copy this repo. You need to have atleast basic understanding of JavaScript.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+## Setup
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+To get a local copy up and running you'll need to have [PostgreSQL](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjoi5D5y-f6AhUShP0HHU1tDp0QFnoECA4QAQ&url=https%3A%2F%2Fwww.postgresql.org%2F&usg=AOvVaw0He1mmeTUi_lhXjiRGJtzr) installed on your local machine.
+
+
+### Install
+
+After installing PostgreSQL please follow the next steps...
+
+  
+
+### Usage
+
+-- To clone this project use:
+```bash
+
+git clone https://github.com/AbelG101/Vet-Clinic-Database.git
+
+```
+
+## Author
+
+  
+
+👤 **Abel Gebeyehu**
+
+  
+
+- GitHub: [@AbelG101](https://github.com/AbelG101)
+
+- LinkedIn: [Abel Gebeyehu](https://www.linkedin.com/in/abel-gebeyehu-779743183/)
+
+  
+  
 
 ## 🤝 Contributing
 
+  
+
 Contributions, issues, and feature requests are welcome!
+
+  
 
 Feel free to check the [issues page](../../issues/).
 
+  
+
 ## Show your support
+
+  
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+  
 
 ## 📝 License
+
+  
 
 This project is [MIT](./MIT.md) licensed.
