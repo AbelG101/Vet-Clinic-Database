@@ -116,3 +116,9 @@ SELECT species.name, COUNT(animals.name) AS number_of_animals
 FROM animals 
 JOIN species ON animals.species_id = species.id 
 GROUP BY species.name;
+
+SELECT animals.name
+FROM animals 
+JOIN species ON animals.species_id = species.id
+JOIN owners ON animals.owners_id = owners.id 
+WHERE species.name = 'Digimon' AND owners.full_name = 'Jennifer Orwell';
