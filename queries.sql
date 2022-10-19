@@ -122,3 +122,8 @@ FROM animals
 JOIN species ON animals.species_id = species.id
 JOIN owners ON animals.owners_id = owners.id 
 WHERE species.name = 'Digimon' AND owners.full_name = 'Jennifer Orwell';
+
+SELECT animals.name
+FROM animals 
+JOIN owners ON animals.owners_id = owners.id
+WHERE owners.full_name = 'Dean Winchester' AND escape_attempts = 0;
