@@ -25,3 +25,6 @@ VALUES ('sam smith', 34),
 INSERT INTO species (name) 
 values ('Pokemon'),
 	   ('Digimon');
+
+UPDATE animals SET species_id = 1 WHERE species_id IS null;
+UPDATE animals SET species_id = 2 WHERE name LIKE '%mon';
