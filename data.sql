@@ -35,3 +35,37 @@ UPDATE animals SET owners_id = 2 WHERE name = 'Pikachu' OR name = 'Gabumon';
 UPDATE animals SET owners_id = 3 WHERE name = 'Devimon' OR name = 'Plantmon';
 UPDATE animals SET owners_id = 4 WHERE name = 'Charmander' OR name = 'Squirtle' OR name = 'Blossom';
 UPDATE animals SET owners_id = 5 WHERE name = 'Angemon' OR name = 'Boarmon';
+
+INSERT INTO vets (name, age, date_of_graduation) 
+VALUES ('William Tatcher', 45, '2022-04-23'),
+	('Maisy Smith', 26, '2019-01-17'),
+	('Stephanie Mendez', 64, '1981-05-04'),
+	('Jack Harkness', 38, '2008-06-08');
+
+INSERT INTO specializations 
+VALUES( 1, 1),
+	  ( 1, 3),
+	  ( 2, 3),
+	  ( 2, 4);
+
+INSERT INTO visits 
+VALUES (24, 1, '2020-05-24'),
+		(24, 3, '2020-07-22'),
+		(25, 4, '2021-02-02'),
+		(26, 2, '2020-01-05'),
+		(26, 2, '2020-03-08'),
+		(26, 2, '2020-05-14'),
+		(27, 3, '2021-05-04'),
+		(28, 4, '2021-02-24'),
+		(29, 2, '2019-12-21'),
+		(29, 1, '2020-08-10'),
+		(29, 2, '2021-04-07'),
+		(30, 3, '2019-09-29'),
+		(31, 4, '2020-10-03'),
+		(31, 4, '2020-11-04'),
+		(32, 2, '2019-01-24'),
+		(32, 2, '2019-05-15'),
+		(32, 2, '2020-02-27'),
+		(32, 2, '2020-08-03'),
+		(33, 3, '2020-05-24'),
+		(33, 1, '2021-01-11');
