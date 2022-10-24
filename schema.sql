@@ -58,9 +58,11 @@ create table specializations (
 create table visits (
 	animals_id int,
 	vets_id int,
-    visit_date date,
-	primary key (animals_id, vets_id, visit_date),
+	visit_date date,
 	foreign key (animals_id) references animals(id),
 	foreign key (vets_id) references vets(id)
 );
 
+CREATE INDEX visits_animals_id ON visits(animals_id);
+CREATE INDEX index_vet_id ON visits(vets_id);
+CREATE INDEX owners_email ON owners(email);
