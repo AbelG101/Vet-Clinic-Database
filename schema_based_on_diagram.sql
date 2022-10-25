@@ -67,3 +67,14 @@ CREATE TABLE IF NOT EXISTS treatment_histories (
 	FOREIGN KEY (history_id) REFERENCES medical_histories(id),
 	FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 );
+
+
+CREATE INDEX treatment_histories_history_id ON treatment_histories(history_id);
+CREATE INDEX treatment_histories_treatment_id ON treatment_histories(treatment_id);
+
+CREATE INDEX invoice_items_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX invoice_items_treatment_id ON invoice_items(treatment_id);
+
+CREATE INDEX invoices_medical_history_id ON invoices(medical_history_id);
+
+CREATE INDEX medical_histories_patient_id ON medical_histories(patient_id);
