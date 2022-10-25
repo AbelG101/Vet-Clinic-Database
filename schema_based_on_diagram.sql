@@ -60,3 +60,10 @@ CREATE TABLE IF NOT EXISTS public.invoice_items
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 );
+
+CREATE TABLE IF NOT EXISTS treatment_histories (
+	history_id int,
+	treatment_id int,
+	FOREIGN KEY (history_id) REFERENCES medical_histories(id),
+	FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+);
